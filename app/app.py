@@ -9,7 +9,7 @@ def home():
 
 @application.route('/goaway')
 def goaway():
-    return render('GO AWAY!')
+    return 'GO AWAY!'
 
 def goaway2():
     return render_template('goaway.html')
