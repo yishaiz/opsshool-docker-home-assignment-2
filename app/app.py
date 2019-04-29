@@ -9,6 +9,9 @@ def home():
 
 @application.route('/goaway')
 def goaway():
+    return render('GO AWAY!')
+
+def goaway2():
     return render_template('goaway.html')
 
 if __name__ == '__main__':
